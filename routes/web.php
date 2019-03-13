@@ -11,9 +11,16 @@
 |
 */
 
+Route::name('user.')->group(function()
+{
+  Route::get('/home', 'HomeController@index')->name('home');
+});
+
 Route::get('/', function () {
 
-  $login = "6dd490faf9cb87a9862245da41170ff2";
+  return view('welcome');
+
+  /*$login = "6dd490faf9cb87a9862245da41170ff2";
   $secretKey = "024h1IlD";
   $seed = date('c'); ;
 
@@ -50,9 +57,9 @@ Route::get('/', function () {
       'ipAddress' => '127.0.0.1',
       'userAgent' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/52.0.2743.116 Safari/537.36',
     ];
-  
+
     $response = $placetopay->request($request);
-    var_dump($response);
+    var_dump($response);*/
 
 
 });
