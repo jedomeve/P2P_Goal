@@ -1,0 +1,9 @@
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px)
+{
+	.app_container
+	{
+		min-height: 39.1em !important;
+		height: 39.1em !important;
+	}
+}
