@@ -28,7 +28,7 @@ class PlaceToPayController extends Controller
         $client->email = $request->email;
         $client->document_value = $request->cc;
 
-       // $client->save();
+       $client->save();
 
         $buyer = [
             'document' => $client->document_value,

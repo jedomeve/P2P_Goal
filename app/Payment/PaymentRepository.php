@@ -26,9 +26,9 @@ class PaymentRepository implements PaymentInterface
         $data = [
             'auth' => [
                 'login' => env('P2P_LOGIN'),
-                'seed' => $seed,
-                'nonce' => $nonce['nonceBase64'],
-                'trankey' => $tranKey
+                'seed' => $this->auth->getAll()['seed'],
+                'nonce' => $this->auth->getAll()['nonce64'],
+                'trankey' => $this->auth->getAll()['trankey']
             ],
             'locale' => 'es_CO',
             'buyer' => $buyer,
@@ -39,12 +39,13 @@ class PaymentRepository implements PaymentInterface
             'ipAddress' => $_SERVER['REMOTE_ADDR'],
         ];
 
-        $request = Curl::to($request_url)
+        $request = Curl::to("https://test.placetopay.com/redirection/api/session")
             ->withData($data)
+            ->returnResponseObject()
             ->asJson()
             ->post();
 
-        dd($request);
+        dd($request, $data);
         //return $request;
     }
 

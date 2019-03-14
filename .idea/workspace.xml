@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d661926-88f5-48f3-89bb-aaa6ce8cc9ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Payment/AuthInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Payment/AuthRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Payment/PaymentInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Payment/PaymentRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/form_buy.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_003909_create_client_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_14_003909_create_client_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_003940_create_product_categories_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_003959_create_product_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_14_003959_create_product_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004010_create_order_states_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004039_create_order_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004054_create_order_detail_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_14_004054_create_order_detail_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004112_create_payments_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_03_14_004112_create_payments_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004229_create_global_params_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_03_14_004339_create_taxes_table.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Payment/AuthInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payment/AuthInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Payment/AuthRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payment/AuthRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Payment/PaymentRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Payment/PaymentRepository.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="48" column="14" selection-start-line="48" selection-end-line="48" selection-end-column="14" />
+            <state relative-caret-position="457">
+              <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,29 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/views/form_buy.blade.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="52" column="88" selection-start-line="52" selection-start-column="84" selection-end-line="52" selection-end-column="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/routes/web.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="357">
+              <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
               <folding>
                 <element signature="e#40#73#0#PHP" expanded="true" />
               </folding>
@@ -82,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Payment/PaymentRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
+            <state relative-caret-position="209">
+              <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -94,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Payment/AuthRepository.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
-              <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
+            <state relative-caret-position="379">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -103,8 +70,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Payment/AuthInterface.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            <state relative-caret-position="153">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -134,15 +101,15 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/form_buy.blade.php" />
         <option value="$PROJECT_DIR$/app/Client.php" />
-        <option value="$PROJECT_DIR$/.env" />
-        <option value="$PROJECT_DIR$/app/Payment/AuthInterface.php" />
         <option value="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" />
         <option value="$PROJECT_DIR$/app/Payment/PaymentInterface.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_03_14_003909_create_client_table.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php" />
         <option value="$PROJECT_DIR$/app/Payment/AuthRepository.php" />
+        <option value="$PROJECT_DIR$/app/Payment/AuthInterface.php" />
         <option value="$PROJECT_DIR$/app/Payment/PaymentRepository.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php" />
       </list>
     </option>
   </component>
@@ -262,6 +229,19 @@
               <item name="P2P_Goal" type="b2602c69:ProjectViewProjectNode" />
               <item name="P2P_Goal" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2P_Goal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2P_Goal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="P2P_Goal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="P2P_Goal" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Payment" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -328,12 +308,12 @@
       <option name="presentableId" value="Default" />
       <updated>1552530256748</updated>
       <workItem from="1552530258002" duration="545000" />
-      <workItem from="1552530831672" duration="10969000" />
+      <workItem from="1552530831672" duration="12864000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11514000" />
+    <option name="totallyTimeSpent" value="13409000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -354,7 +334,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26465365" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.53108346" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -487,13 +467,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="48" column="14" selection-start-line="48" selection-end-line="48" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/form_buy.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-38">
@@ -511,7 +484,28 @@
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="74" column="20" lean-forward="true" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Payment/AuthInterface.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Payment/AuthRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Payment/PaymentRepository.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="39" column="10" selection-start-line="39" selection-start-column="10" selection-end-line="39" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -522,34 +516,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="46" column="22" selection-start-line="46" selection-start-column="22" selection-end-line="46" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PlaceToPayController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="357">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
           <folding>
             <element signature="e#40#73#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Payment/AuthInterface.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Payment/AuthRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="34" column="42" selection-start-line="34" selection-start-column="42" selection-end-line="34" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Payment/PaymentRepository.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="22" column="67" selection-start-line="22" selection-start-column="67" selection-end-line="22" selection-end-column="67" />
         </state>
       </provider>
     </entry>

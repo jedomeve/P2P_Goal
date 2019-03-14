@@ -7,4 +7,5 @@ interface AuthInterface
     public function getSeed();
     public function getNonce();
     public function getTrankey($nonce, $seed);
+    public function getAll();
 }
