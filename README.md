@@ -17,8 +17,13 @@ Realice los siguientes pasos:
 
 - Clone el proyecto desde Github:
 `git clone https://github.com/jedomeve/P2P_Goal.git`
+
 - ubicarse en la carpeta generada del proyecto e instalar las dependencias **composer.json**
 `composer install`
-- renombrar el archivo **.env.example** a **.env** para incluir todas las variables de entorno necesarias para consumir la api, datos de timezone y demas datos de la aplicación.
+
+- Renombrar el archivo **.env.example** a **.env** para incluir todas las variables de entorno necesarias para consumir la api, datos de timezone y demas datos de la aplicación.
+
+- Crear una base de datos en MySql llamada **P2P_Goal** y modiicar en el archivo **.env** el usuario y contraseña de conexión en caso de que por defecto no se conecte con el usuario **root**
+
 - ejecutar `php artisan serve` para iniciar el proyecto en el ambiente local en el puerto 8000
-- ingresar al navegador con la ruta: `http://127.0.0.1:8000
+- ingresar al navegador con la ruta: `http://127.0.0.1:8000`
