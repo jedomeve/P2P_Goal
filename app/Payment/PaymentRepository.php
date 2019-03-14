@@ -26,9 +26,9 @@ class PaymentRepository implements PaymentInterface
         $data = [
             'auth' => [
                 'login' => env('P2P_LOGIN'),
-                'seed' => $this->auth->getAll()['seed'],
-                'nonce' => $this->auth->getAll()['nonce64'],
-                'trankey' => $this->auth->getAll()['trankey']
+                'seed' => $seed,
+                'nonce' => $nonce['nonceBase64'],
+                'trankey' => $tranKey
             ],
             'locale' => 'es_CO',
             'buyer' => $buyer,

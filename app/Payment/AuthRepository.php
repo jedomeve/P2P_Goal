@@ -38,29 +38,4 @@ class AuthRepository implements AuthInterface
 
         return $trankey;
     }
-
-    public function getAll(){
-
-        $secretKey = env('P2P_SECRETKEY');
-        $seed = date('c');
-
-        if (function_exists('random_bytes')) {
-            $nonce = bin2hex(random_bytes(16));
-        } elseif (function_exists('openssl_random_pseudo_bytes')) {
-            $nonce = bin2hex(openssl_random_pseudo_bytes(16));
-        } else {
-            $nonce = mt_rand();
-        }
-
-        $nonceBase64 = base64_encode($nonce);
-
-        $trankey = base64_encode(sha1($nonce . $seed . $secretKey, true));
-
-        return [
-            'seed' => $secretKey,
-            'nonce' => $nonce,
-            'nonce64' => $nonceBase64,
-            'trankey' => $trankey
-        ];
-    }
 }
