@@ -25,5 +25,8 @@ Realice los siguientes pasos:
 
 - Crear una base de datos en MySql llamada **P2P_Goal** y modiicar en el archivo **.env** el usuario y contraseña de conexión en caso de que por defecto no se conecte con el usuario **root**
 
+- Ejecutar el comando migrate de laravel para alimientar con los datos basicos la base de datos creada en el paso anterior.
+`php artisan migrate`
+
 - ejecutar `php artisan serve` para iniciar el proyecto en el ambiente local en el puerto 8000
 - ingresar al navegador con la ruta: `http://127.0.0.1:8000`
