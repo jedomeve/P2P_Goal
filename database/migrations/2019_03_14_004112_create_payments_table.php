@@ -15,6 +15,12 @@ class CreatePaymentsTable extends Migration
     {
         Schema::create('payments', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('order_detail_id');
+            $table->string('state');
+            $table->foreign('order_detail_id')
+                ->references('id')
+                ->on('order_details')
+                ->onDelete('cascade');
             $table->timestamps();
         });
     }

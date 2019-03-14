@@ -13,24 +13,17 @@ class CreateOrderDetailTable extends Migration
      */
     public function up()
     {
-      if(!Schema::hasTable('order_detail'))
+      if(!Schema::hasTable('order_details'))
       {
-        Schema::create('order_detail', function (Blueprint $table) {
+        Schema::create('order_details', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->integer('order_id');
+            $table->string('reference', 255);
             $table->integer('product_id');
-            $table->integer('cant');
+            $table->integer('product_cant');
             $table->double('price_unit');
             $table->double('total_taxes');
             $table->double('total_price');
             $table->double('total');
-            $table->integer('state');
-            $table->foreign('order_id')
-                  ->references('order')
-                  ->on('id');
-            $table->foreign('product_id')
-                  ->references('product')
-                  ->on('id');
             $table->timestamps();
         });
       }
@@ -43,6 +36,6 @@ class CreateOrderDetailTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order_detail');
+        Schema::dropIfExists('order_details');
     }
 }

@@ -14,6 +14,12 @@
 Route::name('user.')->group(function()
 {
   Route::get('/home', 'HomeController@index')->name('home');
+  Route::get('/buy/{product}', 'HomeController@buy')->name('buy');
+});
+
+Route::name('p2p.')->group(function()
+{
+    Route::post('/send-data-payment', 'PlaceToPayController@dataPayment')->name('dataPayment');
 });
 
 Route::get('/', function () {

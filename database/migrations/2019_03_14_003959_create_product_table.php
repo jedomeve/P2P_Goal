@@ -19,13 +19,8 @@ class CreateProductTable extends Migration
             $table->bigIncrements('id');
             $table->mediumText('name');
             $table->text('description');
-            $table->integer('category');
-            $table->mediumText('url_photo');
             $table->double('price');
             $table->timestamps();
-            $table->foreign('category')
-                  ->references('product_categories')
-                  ->on('id');
         });
       }
     }

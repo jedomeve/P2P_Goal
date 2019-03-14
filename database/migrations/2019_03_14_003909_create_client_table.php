@@ -20,9 +20,9 @@ class CreateClientTable extends Migration
             $table->string('name',250);
             $table->string('lastname',250);
             $table->string('phone',15);
-            $table->string('address',15);
+            $table->string('address');
             $table->string('email',250)->unique();
-            $table->int('document_type')->default(1); // 1 (cedula)
+            $table->integer('document_type')->default(1); // 1 (cedula)
             $table->string('document_value')->unique();
             $table->timestamps();
         });
